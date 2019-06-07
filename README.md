@@ -333,7 +333,7 @@ todo2.forEach(function(todo2, index){
 - `reduce(func, initial)` - calculate a single value over the array by calling `func` for each element and passing an intermediate result between the calls.
 
 
-
+hello
 
 
 
