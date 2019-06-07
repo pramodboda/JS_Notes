@@ -231,9 +231,9 @@ var  todo  =  ['HTML5',  'CSS3',  'JS',  'ES6/ES7',  'jQuery','React',  'TypeScr
 ```
 Add element to the end.
 ```javascript
-	todo.push('Less');
-	console.log('You have ' + todo.length + ' todos');
-	console.log(todo);
+todo.push('Less');
+console.log('You have ' + todo.length + ' todos');
+console.log(todo);
 ```
   Add element from the beginning.
 ```javascript
@@ -271,7 +271,7 @@ console.log(todo);
 ```
 ### Looping over Array
 
-**`forEach(Func)`** - Calls `func` for every element, does not return anything.
+**`forEach(func)`** - Calls `func` for every element, does not return anything.
 
 ```javascript
 const  todo2  =  ['Make Art','Develop Website','Learn Web Development',  'Do Exercises',  'Earn Money','Save Money'];
@@ -289,6 +289,44 @@ todo2.forEach(function(todo2, index){
 });
 ```
 
+Alternate Method
+
+The **for statement** creates a loop that consists of three optional expressions, enclosed in parentheses and separated by semicolons, followed by a statement (usually a [block statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block)) to be executed in the loop.
+
+Syntax
+```javascript
+for ([_initialization_]; [_condition_]; [_final-expression_]){
+	statement
+}
+```
+
+`forEach(func)` only counts from beginning to end.
+
+You have an array now you want to count in order, than stick to` forEach(func)` method.
+
+`for()` loop statement has bit more flexibility, you can count reverse too.
+
+If you don't have an array and count in different order than stick to `for()` loop statements.
+
+  
+```javascript
+console.log('You have '  +  todo2.length  +' todos');
+	for(var  count=0; count<todo2.length; count++){
+	var  num  =  count+1;
+	var  todos  =  todo2[count]
+	console.log(num+  ' : '  +todos);
+}
+```
+
+**Count Reverse to an Array**
+```javascript
+console.log('You have '  +  todo2.length  +' todos');
+	for(var  count=todo2.length-1; count>=0; count--){
+	var  num  =  count+1;
+	var  todos  =  todo2[count]
+	console.log(num+  ' : '  +todos);
+}
+```
 
 
 		-  `concat(...items)` - Joins two or more arrays, and returns a copy of the joined arrays
@@ -333,7 +371,6 @@ todo2.forEach(function(todo2, index){
 - `reduce(func, initial)` - calculate a single value over the array by calling `func` for each element and passing an intermediate result between the calls.
 
 
-hello
 
 
 
