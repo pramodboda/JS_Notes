@@ -1,3 +1,5 @@
+<pre class=" language-javascript"><code class="prism  language-javascript"><span class="token keyword">var</span>  todo  <span class="token operator">=</span>  <span class="token punctuation">[</span><span class="token string">'HTML5'</span><span class="token punctuation">,</span>  <span class="token string">'CSS3'</span><span class="token punctuation">,</span>  <span class="token string">'JS'</span><span class="token punctuation">,</span>  <span class="token string">'ES6/ES7'</span><span class="token punctuation">,</span>  <span class="token string">'jQuery'</span><span class="token punctuation">,</span><span class="token string">'React'</span><span class="token punctuation">,</span>  <span class="token string">'TypeScript'</span><span class="token punctuation">,</span><span class="token string">'Angular'</span><span class="token punctuation">,</span>  <span class="token string">'Node'</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+</code></pre>
 <h1 id="javascript-notes-by-pramod-boda">JavaScript Notes by Pramod Boda</h1>
 <h2 id="core-javascript">Core JavaScript</h2>
 <ol>
