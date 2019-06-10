@@ -213,6 +213,15 @@ JavaScript is a loosely typed or a dynamic language.
 - `Expressions` are *evaluated* to produce a `value`, but `statements` are *executed* to make something happen.
 
 
+### Numbers 
+App:
+let empScore = 8497;
+let maxVPay = 7757;
+
+let empPercentage = (empScore / maxVPay) * 100;
+console.log(empPercentage);
+
+
 ## 9. Arrays
 ### List of Array properties
 - constructor
