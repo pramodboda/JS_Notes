@@ -215,11 +215,12 @@ JavaScript is a loosely typed or a dynamic language.
 
 ### Numbers 
 App:
-let empScore = 8497;
-let maxVPay = 7757;
+let empScore = 7757;
+let maxVPay =  8497;
 
 let empPercentage = (empScore / maxVPay) * 100;
 console.log(empPercentage);
+output> 91.29104389784631
 
 
 ## 9. Arrays
