@@ -214,14 +214,45 @@ JavaScript is a loosely typed or a dynamic language.
 
 
 ### Numbers 
+Percentage Calculator App:
 ```javascript
-App:
 let empScore = 7757;
 let maxVPay =  8497;
 
 let empPercentage = (empScore / maxVPay) * 100;
 console.log(empPercentage);
-output> 91.29104389784631
+output=> 91.29104389784631
+```
+
+### Boolean Conditions 
+```javascript
+//Boolean Variable
+let isAccountLocked = false;
+//String Variable
+let userRole = "admin";
+
+//Boolean Conditions
+if(isAccountLocked){
+	console.log("Is acount loacked");
+}else if(userRole === "admin"){
+	console.log("Welcome Admin!");
+}else{
+	console.log("Welcome User!");
+}
+```
+
+```javascript
+let temp = 45;
+
+if(temp<32){
+ console.log("It is freezing outside!")
+}
+if(temp>=110){
+	console.log("It is hot outside!");
+}else{
+	console.log("Go for it. It is pretty nice.")
+}
+
 ```
 
 ## 9. Arrays
