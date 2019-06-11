@@ -255,6 +255,22 @@ if(temp>=110){
 
 ```
 
+### Logical `AND(&&)` and `OR(||)` operators
+```javascript
+let temp = 100;
+
+// AND(&&) operator - All condition should be true, Not enough with any one true, it should be all true.
+if(temp>=60 && temp<=90){
+	console.log("Go for it. It is pretty nice.");
+}
+// OR(||) operator - Any one should be true.
+else if(temp<=0 || temp>=120){
+	console.log("Dont go outsie!");
+}else {
+	console.log("Eh, Do what you want");
+}
+```
+
 ## 9. Arrays
 ### List of Array properties
 - constructor
