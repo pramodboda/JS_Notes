@@ -56,9 +56,10 @@
 
 	- Summary of JavaScript Statements
 
-8) Objects
-9) Arrays
-10) Functions
+8) Functions
+9) Objects
+10) Arrays
+
 11) Class & Modules
 12) Pattern Matching with Regular Expressions
 
@@ -271,7 +272,20 @@ else if(temp<=0 || temp>=120){
 }
 ```
 
-## 9. Arrays
+## 8. Functions
+
+```javascript
+let calVariablePayPercentage  = function(scoredVariablePay, maxVariablePay){
+	let result = scoredVariablePay / maxVariablePay * 100;
+	return result;
+}
+
+let pramodVPayPercentage= calVariablePayPercentage(7500,8500);
+console.log(pramodVPayPercentage);
+```
+
+
+## 10. Arrays
 ### List of Array properties
 - constructor
 - length
