@@ -273,7 +273,9 @@ else if(temp<=0 || temp>=120){
 ```
 
 ## 8. Functions
+
 There are 3 important parts to a function: 
+
 Function - input(Arguments), code(Statements), output(return value)
 
 ```javascript
