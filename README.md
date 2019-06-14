@@ -261,7 +261,14 @@ if(temp>=110){
 `null`| `undefined`
 -------- | -----
 `null` is an assigned value. It means _nothing._ | `undefined` means a variable has been declared but not defined yet.
-`null` is an object.   | `undefined` is of type `undefined`.
+`null` is an object.
+```javascript
+typeof null// "object" (not "null" for legacy reasons)
+``` 
+| `undefined` is of type `undefined`.
+```javascript
+typeof undefined // "undefined"
+```
 `null !== undefined` | but  `null == undefined`.
 
 
