@@ -160,7 +160,7 @@ JS  |  Behavior  |  to specify the behavior of the web pages.
 ```
 
 ### Identifiers
-- An identifires is simple a name. In JavaScript, identifires are used to name variables and functions and to provide labels for certain loops in JavaScript code.
+- An identifiers is simple a name. In JavaScript, identifiers are used to name variables and functions and to provide labels for certain loops in JavaScript code.
 - These are all legal identifiers: 
 ```javascript
  var trueVar // variable initialization
@@ -273,14 +273,28 @@ else if(temp<=0 || temp>=120){
 ```
 
 ## 8. Functions
+There are 3 important parts to a function: 
+Function - input(Arguments), code(Statements), output(return value)
 
+```javascript
+let square = function(num){
+	let result = num * num;
+	return result;
+}
+
+let value1 = square(6);
+let value2 = square(30);
+
+console.log(value1);
+console.log(value2);
+```
 ```javascript
 let calVariablePayPercentage  = function(scoredVariablePay, maxVariablePay){
 	let result = scoredVariablePay / maxVariablePay * 100;
 	return result;
 }
 
-let pramodVPayPercentage= calVariablePayPercentage(7500,8500);
+let pramodVPayPercentage = calVariablePayPercentage(7500,8500);
 console.log(pramodVPayPercentage);
 ```
 
