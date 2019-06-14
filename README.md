@@ -255,6 +255,15 @@ if(temp>=110){
 }
 
 ```
+### Difference between  `null`  and  `undefined`
+
+
+`null`| `undefined`
+-------- | -----
+`null` is an assigned value. It means _nothing._ | `undefined` means a variable has been declared but not defined yet.
+`null` is an object.   | `undefined` is of type `undefined`.
+`null !== undefined` | but  `null == undefined`.
+
 
 ### Logical `AND(&&)` and `OR(||)` operators
 ```javascript
@@ -276,7 +285,7 @@ else if(temp<=0 || temp>=120){
 
 There are 3 important parts to a function: 
 
-Function - input(Arguments), code(Statements), output(return value)
+Function - input(Arguments), code(Statements), output(Return value)
 
 ```javascript
 let square = function(num){
