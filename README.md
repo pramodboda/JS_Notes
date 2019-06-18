@@ -263,6 +263,7 @@ if(temp>=110){
 null is an assigned value. It means _nothing._ | undefined means a variable has been declared but not defined yet.
 null is an object.   | undefined is of type undefined.
 null !== undefined | but  null == undefined.
+Unassigned variables are initialized by JavaScript with a default value of undefined. | JavaScript never sets a value to null. That must be done programmatically.
 
 
 
