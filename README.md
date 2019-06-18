@@ -260,18 +260,14 @@ if(temp>=110){
 
 `null`| `undefined`
 -------- | -----
-`null` is an assigned value. It means _nothing._ | `undefined` means a variable has been declared but not defined yet.
-`null` is an object.   
-```javascript
-typeof null// "object" (not "null" for legacy reasons)
-``` 
-| `undefined` is of type `undefined`.
+null is an assigned value. It means _no value/ nothing._ | undefined  means a variable has not been declared, or has been declared but has not yet been assigned a value.
+null is an object.   | undefined typeof is undefined.
 null !== undefined | but  null == undefined.
-Unassigned variables are initialized by JavaScript with a default value of```javascript
-typeof undefined // "undefined"
-```
-`null !== undefined.` | JavaScript never sets a value to null. That must be done programmatically.
-but  `null == undefined`.
+Unassigned variables are initialized by JavaScript with a default value of undefined. | JavaScript never sets a value to null. That must be done programmatically.
+undefined  is not valid in JSON | while  null  is
+
+-   Both are primitives
+- -   Both are  [falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)  (`Boolean(undefined) // false`,  `Boolean(null) // false`)
 
 
 ### Logical `AND(&&)` and `OR(||)` operators
@@ -482,6 +478,3 @@ console.log('You have '  +  todo2.length  +' todos');
 
 
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MTg4MjkzMF19
--->
