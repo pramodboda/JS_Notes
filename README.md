@@ -266,8 +266,8 @@ null !== undefined | but  null == undefined.
 Unassigned variables are initialized by JavaScript with a default value of undefined. | JavaScript never sets a value to null. That must be done programmatically.
 undefined  is not valid in JSON | while  null  is
 
--   Both are primitives
-- -   Both are  [falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)  (`Boolean(undefined) // false`,  `Boolean(null) // false`)
+- Both are primitives
+- Both are  [falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)  (`Boolean(undefined) // false`,  `Boolean(null) // false`)
 
 
 ### Logical `AND(&&)` and `OR(||)` operators
