@@ -69,24 +69,6 @@
 
 
 
-
-## Statements 
-- `Statements` are JavaScript sentences or commands. 
-- Just as English sentences are terminated and separated from each other with periods, JavaScript statements are terminated with semicolons. 
-- `Expressions` are *evaluated* to produce a `value`, but `statements` are *executed* to make something happen.
-
-
-### Numbers 
-Percentage Calculator App:
-```javascript
-let empScore = 7757;
-let maxVPay =  8497;
-
-let empPercentage = (empScore / maxVPay) * 100;
-console.log(empPercentage);
-output=> 91.29104389784631
-```
-
 ### Boolean Conditions 
 ```javascript
 //Boolean Variable
